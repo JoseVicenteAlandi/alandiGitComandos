@@ -1,1 +1,2 @@
 grep -i 'Juan' datos.txt
+grep -i "juan" datos.txt | awk -F',' '{print $4}'
